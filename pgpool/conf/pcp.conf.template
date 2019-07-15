@@ -1,0 +1,3 @@
+{{range .Users}}
+{{ .User }}:{{ .Password }}
+{{end}}
